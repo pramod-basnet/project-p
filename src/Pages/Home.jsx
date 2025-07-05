@@ -115,6 +115,11 @@ const Home = () => {
           { name: 'Ashoka Stupa', image: '/images/ashoka_stupa.jpg', description: 'Ancient Buddhist stupa built by Emperor Ashoka.' , price: 2000 },
           { name: 'Namo Buddha', image: '/images/namo_buddha.jpg', description: 'Sacred Buddhist pilgrimage site near Kathmandu.'   , price: 2500 },
           { name: 'Buddhanilkantha Temple', image: '/images/buddhanilkantha.jpg', description: 'Famous temple with a reclining statue of Lord Vishnu.' , price: 2000 },
+          { name: 'Kirtipur', image: '/images/kirtipur.jpg', description: 'Historic town with temples and traditional Newari culture.', price: 1500 },
+          { name: 'Bhaktapur Pottery Square', image: '/images/pottery_square.jpg', description: 'Cultural site known for traditional pottery making.', price: 1000 },
+          { name: 'Gorkha Palace', image: '/images/gorkha_palace.jpg', description: 'Historic palace and birthplace of King Prithvi Narayan Shah.', price: 3000 },
+          { name: 'Boudhanath Monastery', image: '/images/boudhanath_monastery.jpg', description: 'Monastery surrounding the Boudhanath Stupa.', price: 2000 }
+
         ]}
       />
 
@@ -127,61 +132,73 @@ const Home = () => {
             name: 'Everest Base Camp',
             image: '/images/everest.jpg',
             description: 'Gateway to the world’s highest peak with stunning Himalayan views.',
+            price: 10000
           },
           {
             name: 'Annapurna Base Camp',
             image: '/images/annapurna.jpg',
-            description: 'A popular trekking destination with panoramic mountain scenery.',
+            description: 'A popular trekking destination with panoramic mountain scenery.', 
+            price: 8000
           },
           {
             name: 'Langtang Valley',
             image: '/images/langtang.jpg',
             description: 'Rich in culture and glaciers, nestled near the Tibetan border.',
+            price: 6000
           },
           {
             name: 'Manang',
             image: '/images/manang.jpg',
             description: 'A scenic village on the Annapurna Circuit with alpine beauty.',
+            price: 7000
           },
           {
             name: 'Gosaikunda',
             image: '/images/gosaikunda.jpg',
             description: 'A sacred alpine lake surrounded by snow-capped mountains.',
+            price: 5000
           },
           {
             name: 'Dolpo',
             image: '/images/dolpo.jpg',
             description: 'Remote high-altitude area known for mystic beauty and culture.',
+            price: 12000
           },
           {
             name: 'Muktinath',
             image: '/images/muktinath.jpg',
             description: 'A sacred site for Hindus and Buddhists located in the Mustang region.',
+            price: 4000
           },
           {
             name: 'Kalinchowk',
             image: '/images/kalinchowk.jpg',
             description: 'A famous pilgrimage and snow destination near Kathmandu.',
+            price: 3000
           },
           {
             name: 'Poon Hill',
             image: '/images/poonhill.jpg',
             description: 'Offers a breathtaking sunrise view over the Annapurna and Dhaulagiri ranges.',
+            price: 3500
           },
           {
             name: 'Rara Lake',
             image: '/images/rara.jpg',
             description: 'Nepal’s largest lake surrounded by forested hills and Himalayan peaks.',
+            price: 9000
           },
           {
             name: 'Pathivara',
             image: '/images/pathivara.jpg',
             description: 'A revered hilltop temple offering panoramic Himalayan views.',
+            price: 2500
           },
           {
             name: 'Upper Mustang',
             image: '/images/uppermustang.jpg',
             description: 'A restricted, semi-desert region with ancient Tibetan culture.',
+            price: 11000
           }
         ]}
       />
@@ -192,52 +209,107 @@ const Home = () => {
             name: 'Chitwan National Park',
             image: '/images/chitwan.jpg',
             description: 'Home to one-horned rhinos, Bengal tigers, and rich biodiversity.',
+            price: 3000
           },
           {
             name: 'Bardiya National Park',
             image: '/images/bardiya.jpg',
             description: 'Known for tigers, elephants, and peaceful jungle safaris.',
+            price: 3500
           },
           {
             name: 'Sagarmatha National Park',
             image: '/images/sagarmatha.jpg',
             description: 'Includes Mount Everest and a UNESCO World Heritage Site.',
+            price: 8000
           },
           {
             name: 'Shivapuri Nagarjun National Park',
             image: '/images/shivapuri.jpg',
             description: 'Popular for short hikes and rich flora near Kathmandu Valley.',
+            price: 2000
           },
           {
             name: 'Rara National Park',
             image: '/images/rara.jpg',
             description: 'Protects Rara Lake, Nepal’s largest lake, and alpine ecosystems.',
+            price: 6000
           },
           {
             name: 'Makalu Barun National Park',
             image: '/images/makalu.jpg',
             description: 'One of the most remote parks with diverse flora and fauna.',
+            price: 7000
           },
           {
             name: 'Khaptad National Park',
             image: '/images/khaptad.jpg',
             description: 'Sacred land of Khaptad Baba with rolling meadows and forests.',
+            price: 4000
           },
           {
             name: 'Parsa National Park',
             image: '/images/parsa.jpg',
             description: 'Tropical and subtropical forest, home to leopards and elephants.',
+            price: 2500
           },
           {
             name: 'Banke National Park',
             image: '/images/banke.jpg',
             description: 'Established to protect tigers and connect ecological corridors.',
+            price: 3000
           },
           {
             name: 'Koshi Tappu Wildlife Reserve',
             image: '/images/koshi.jpg',
             description: 'Wetland reserve, famous for birds and wild water buffalo.',
-          }
+            price: 2000
+          },
+          {
+            name: 'Bardia National Park',
+            image: '/images/bardia.jpg',
+            description: 'Less crowded than Chitwan, known for its rich wildlife.',
+            price: 3500   
+          },
+          {
+            name: 'Langtang National Park',
+            image: '/images/langtang.jpg',
+            description: 'Home to Langtang Valley, glaciers, and diverse wildlife.',
+            price: 5000
+          },
+          {
+            name: 'Annapurna Conservation Area',
+            image: '/images/annapurna.jpg',
+            description: 'Largest protected area in Nepal, rich in biodiversity.',
+            price: 6000
+          },
+          {
+            name: 'Shey Phoksundo National Park',
+            image: '/images/shey_phoksundo.jpg',
+            description: 'Known for its stunning turquoise lake and Tibetan culture.',
+            price: 7000
+          },
+          {
+            name: 'Dhorpatan Hunting Reserve',
+            image: '/images/dhorpatan.jpg',
+            description: 'Nepal’s only hunting reserve, known for blue sheep and pheasants.',
+            price: 4000
+          },
+          {
+            name: 'Gaurishankar Conservation Area',
+            image: '/images/gaurishankar.jpg',
+            description: 'Protects the Gaurishankar mountain range and surrounding ecosystems.',
+            price: 4500   
+          },
+          {
+            name: 'Api Nampa Conservation Area',
+            image: '/images/api_nampa.jpg',
+            description: 'Protects Api and Nampa mountains, rich in flora and fauna.',
+            price: 5000 
+          },
+
+
+          
         ]}
       />
       <ScrollablePlaces
@@ -247,121 +319,121 @@ const Home = () => {
             name: 'Everest Base Camp Trek',
             image: '/images/everest.jpg',
             description: 'The most iconic trek in Nepal, offering views of Mount Everest.',
+            price: 12000
           },
           {
             name: 'Annapurna Circuit Trek',
             image: '/images/annapurna.jpg',
             description: 'One of the most diverse and scenic treks in the Himalayas.',
+            price: 10000
           },
           {
             name: 'Mardi Himal Trek',
             image: '/images/mardi.jpg',
             description: 'A short and peaceful trek with stunning views of Machhapuchhre.',
+            price: 6000
           },
           {
             name: 'Langtang Valley Trek',
             image: '/images/langtang.jpg',
             description: 'Close to Kathmandu with glaciers, mountains, and Tamang culture.',
+            price: 7000
           },
           {
             name: 'Manaslu Circuit Trek',
             image: '/images/manaslu.jpg',
             description: 'A remote trail offering wilderness and Tibetan culture.',
+            price: 9000
           },
           {
             name: 'Upper Mustang Trek',
             image: '/images/uppermustang.jpg',
             description: 'Explore desert landscapes and the hidden Buddhist kingdom of Lo.',
+            price: 15000
           },
           {
             name: 'Gosaikunda Trek',
             image: '/images/gosaikunda.jpg',
             description: 'Sacred alpine lakes with rugged trails and mountain views.',
+            price: 5000
           },
           {
             name: 'Rara Lake Trek',
             image: '/images/rara.jpg',
             description: 'A peaceful adventure to the biggest lake in Nepal.',
+            price: 8000
           },
           {
             name: 'Dhampus-Australian Camp',
             image: '/images/dhampus.jpg',
             description: 'A short trek near Pokhara with panoramic views of Annapurna.',
+            price: 3000
           },
           {
             name: 'Kalinchowk',
             image: '/images/kalinchowk.jpg',
             description: 'Perfect for snow adventure, short trek, and panoramic scenes.',
+            price: 4000
           },
         
           {
             name: 'Bungee Jumping',
             image: '/images/bungee.jpg',
             description: 'Experience the thrill of jumping into the Bhote Koshi River gorge.',
+            price: 5000
           },
           {
             name: 'Paragliding in Pokhara',
             image: '/images/paragliding.jpg',
             description: 'Soar above the stunning lakes and mountains of Pokhara.',
+            price: 6000
           },
           {
             name: 'White Water Rafting',
             image: '/images/rafting.jpg',
             description: 'Adventure through thrilling rapids on rivers like Trishuli and Bhote Koshi.',
+            price: 4000
           },
           {
             name: 'Zip Lining in Pokhara',
             image: '/images/zipline.jpg',
             description: 'One of the world’s longest zip lines with breathtaking views.',
+            price: 3000
           },
           {
             name: 'Mountain Biking',
             image: '/images/mountainbiking.jpg',
             description: 'Explore rugged trails and scenic routes across the country.',
+            price: 3500
           },
           {
             name: 'Rock Climbing',
             image: '/images/rockclimbing.jpg',
             description: 'Climb natural rock formations in various locations.',
+            price: 2500
           },
           {
             name: 'Canyoning',
             image: '/images/canyoning.jpg',
             description: 'Adventure through waterfalls and canyons in the Himalayas.',
+            price: 4500
           },
           {
             name: 'Jungle Safari in Chitwan',
             image: '/images/junglesafari.jpg',
             description: 'Explore diverse wildlife in one of Nepal’s premier national parks.',
+            price: 3000
           },
           {
             name: 'Helicopter Tours',
             image: '/images/helicopter.jpg',
             description: 'Get a bird’s eye view of the majestic Himalayas.',
+            price: 12000
           },
-         
-          {
-            name: 'Camping',
-            image: '/images/camping.jpg',
-            description: 'Enjoy the serene beauty of nature with camping trips.',
-          },
-          {
-            name: 'Fishing',
-            image: '/images/fishing.jpg',
-            description: 'Experience fishing in the pristine rivers and lakes of Nepal.',
-          }
         ]}
       />
+   
       
-
-
-
-
-
-
-
-      
-    
     
   <Footer />
 
