@@ -1,7 +1,8 @@
 import React from 'react';
-import Footer from '../Components/Footer';
+import Footer2 from '../Components/Footer2';
 import Header from '../Components/Header';
 import ScrollablePlaces from '../Components/ScrollablePlaces';
+import Footer1 from '../Components/Footer1';
 
 import Navbar from '../Components/Navbar';
 import { Link } from 'react-router-dom';
@@ -432,10 +433,8 @@ const Home = () => {
           },
         ]}
       />
-   
-      
-    
-  <Footer />
+   <Footer1
+  <Footer2 />
 
 
   </>

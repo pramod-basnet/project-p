@@ -1,5 +1,5 @@
 import React from 'react';
-const Footer = () => {
+const Footer2 = () => {
   const footerStyles = {
     footer: {
       backgroundColor: '#f8f9f2',
@@ -97,4 +97,4 @@ const Footer = () => {
   );
 };
 
-export default Footer;
+export default Footer2;
