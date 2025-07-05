@@ -1,4 +1,7 @@
-const ScrollablePlaces = ({ title, places }) => {
+import BookingForm from './BookingForm';
+
+const [selectedPlace, setSelectedPlace] = useState(null
+  const ScrollablePlaces = ({ title, places }) => {
   const handleBooking = (place) => {
     alert(`Booking started for ${place.name} at ₹${place.price}`);
   };
