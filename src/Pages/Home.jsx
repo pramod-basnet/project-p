@@ -433,8 +433,9 @@ const Home = () => {
           },
         ]}
       />
-   <Footer1
-  <Footer2 />
+   <Footer1/>
+    
+  <Footer2/>
 
 
   </>

@@ -19,14 +19,21 @@ const Navbar = (props) => {
               <Link to="/contact">
                 <li>Contact</li>
               </Link>
-              <Link to='/Destination'>
-                <li> Destination</li>
+              <Link to="/services">
+                <li>Services</li>
               </Link>
-            </ul>
+              <Link to="/gallery">
+                <li><Gallary></Gallary></li>
+              </Link>
+              <Link to="/blog">
+                <li> Blog</li>
+              </Link>
+              <Link to="/terms&conditions">
+                <li>Terms & Conditions </li>
+              </Link>
+              </ul>
 
-            <div className="left">
-              <button className="p-2 bg-blue-600 rounded">Login</button>
-            </div>
+            
           </nav>
         </div>
       </div>
